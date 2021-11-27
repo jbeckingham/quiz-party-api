@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "node": "^17.1.0",
     "random-words": "^1.1.1",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0"
   }
 }
